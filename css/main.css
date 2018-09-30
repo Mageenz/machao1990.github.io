@@ -13,7 +13,7 @@ a,
 a:hover,
 a:focus,
 a:active {
-    color: #44a4c8;
+    color: #ff7e79;
 }
 a, a:hover{
     text-decoration: none;
@@ -30,7 +30,7 @@ blockquote {
     color: #808080;
     font-size: 0.95em;
     margin: 20px 0 20px;
-    border-color: #44a4c8;
+    border-color: #ff7e79;
 }
 
 blockquote p {
@@ -82,13 +82,13 @@ th {
 ::-moz-selection {
     color: white;
     text-shadow: none;
-    background: #44a4c8;
+    background: #ff7e79;
 }
 
 ::selection {
     color: white;
     text-shadow: none;
-    background: #44a4c8;
+    background: #ff7e79;
 }
 
 img::selection {
@@ -173,10 +173,10 @@ legend {
 .header-navbar .brand-logo {
     font-family: cursive, -apple-system,  "PingFang SC","Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     display: fixed;
-    color: #3fa3c7;
+    color: red;
     margin-top: 5px;
     padding-left: 5px;
-    font-size: 30px;
+    font-size: 55px;
 }
 
 .header-navbar .nav li a {
@@ -242,7 +242,7 @@ legend {
     .header-navbar .nav li a:focus,
     .header-navbar .navbar-brand:hover,
     .header-navbar .navbar-brand:focus {
-        color: #44a4c8;
+        color: #ff7e79;
     }
 }
 
@@ -404,8 +404,8 @@ footer .copyright {
 .pager li > a:hover,
 .pager li > a:focus {
     color: white;
-    background-color: #44a4c8;
-    border: 1px solid #44a4c8;
+    background-color: #ff7e79;
+    border: 1px solid #ff7e79;
 }
 
 .pager .disabled > a,
@@ -483,7 +483,7 @@ footer .copyright {
 #tag_cloud a:active,
 #tag_cloud .tag:active {
     color: white;
-    background-color: #44a4c8 !important;
+    background-color: #ff7e79 !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -494,7 +494,7 @@ footer .copyright {
 
 /* tag post listing */
 .tag-icon {
-    color: #44a4c8;
+    color: #ff7e79;
     font-size: 21px;
 }
 
@@ -702,7 +702,7 @@ footer .copyright {
 }
 
 .container .toc-wrap .toc-level-2 > a {
-    color: #44a4c8;
+    color: #ff7e79;
     font-size: .9em;
 }
 
@@ -937,7 +937,7 @@ footer .copyright {
 
 .sidebar-container a:hover,
 .sidebar-container a:active {
-    color: #44a4c8 !important;
+    color: #ff7e79 !important;
 }
 
 .sidebar-container .tags a {
@@ -946,7 +946,7 @@ footer .copyright {
 
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
-    border-color: #44a4c8;
+    border-color: #ff7e79;
 }
 
 .sidebar-container .short-about .avatar {
@@ -1068,8 +1068,7 @@ article blockquote cite:before{
 
 .post-preview > a > h2{transition: color .3s;}
 .post-preview:not(:first-of-type) > a:hover > h2{
-    /* color: #FC7097; */
-    color: #44a4c8;
+    color: #FC7097;
 }
 
 .post-preview > a > .post-title {
@@ -1102,7 +1101,7 @@ article blockquote cite:before{
 
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-    color: #44a4c8;
+    color: #ff7e79;
     text-decoration: underline;
 }
 
