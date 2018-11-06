@@ -9,7 +9,7 @@
     <meta name="description" content="喜怒哀乐是常事，保持平淡">
     <meta name="author" content="magee">
     <meta name="keyword" content="生活, 前端, 博客, 程序员">
-    <link rel="canonical" href="http://yoursite.com/十一/">
+    <link rel="canonical" href="http://yoursite.com/踩了个坑/">
     <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
     <link rel="alternate" type="application/atom+xml" title="magee" href="/atom.xml">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -21,7 +21,7 @@
 
     <title>
         
-        十一｜马潮的博客
+        踩了个坑 Date.parse()｜马潮的博客
         
     </title>
 
@@ -143,14 +143,14 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
                     <div class="site-heading">
-                        <h1>十一</h1>
+                        <h1>踩了个坑 Date.parse()</h1>
                         
                         
                           <span class="meta">
                                <span class="meta-item">Author: magee</span>
-                               <span class="meta-item">Date: Oct 2, 2018</span>
+                               <span class="meta-item">Date: Nov 2, 2018</span>
                                
-                                 <span class="meta-item">Updated On: Oct 2, 2018</span>
+                                 <span class="meta-item">Updated On: Nov 2, 2018</span>
                                
                           </span>
                           <div class="tags text-center">
@@ -158,11 +158,11 @@
                           </div>
                           <div class="tags text-center">
                               Tags: 
-                              <a class="tag" href="/tags/#假期"
-                                 title="假期">假期</a>
+                              <a class="tag" href="/tags/#前端"
+                                 title="前端">前端</a>
                               
-                              <a class="tag" href="/tags/#出行"
-                                 title="出行">出行</a>
+                              <a class="tag" href="/tags/#坑"
+                                 title="坑">坑</a>
                               
                           </div>
                         
@@ -187,23 +187,16 @@
 </div><hr>
           
           
-          <p>老同学结婚了，趁此机会，来到温州鳌江，也算个小旅行吧。</p>
-<p>前天晚上到的鳌江，从杭州来，3小时，一路上大大小小也有好几个站。</p>
-<p>老同学见面，感觉甚好，喝了个畅快。</p>
+          <p>ios12，微信内置webview，居然无法解析<code>Date.parse(&#39;2018-12-12 12:12:12&#39;)</code>，但是<code>2018-12-12 12:12:12</code>明明是符合<a href="https://en.wikipedia.org/wiki/ISO_8601" target="_blank" rel="noopener">ISO 8601</a>格式规范的。最后通过<a href="https://momentjs.com/docs/#/parsing/string-format/" target="_blank" rel="noopener">momentjs</a>解决了问题。我想应该是不同浏览器对<code>Date.parse</code>支持程度不同吧，因为chrome是可以解析的，哎，前端啊，何时能大统一呢！</p>
 
           
           <hr>
           <ul class="pager">
               
-              <li class="previous">
-                  <a href="/踩了个坑/" data-toggle="tooltip" data-placement="left"
-                     title="踩了个坑 Date.parse()">&larr; Previous Post</a>
-              </li>
-              
               
               <li class="next">
-                  <a href="/2018-09-30-9月/" data-toggle="tooltip" data-placement="top"
-                     title="9月">Next Post&rarr;</a>
+                  <a href="/十一/" data-toggle="tooltip" data-placement="top"
+                     title="十一">Next Post&rarr;</a>
               </li>
               
           </ul>

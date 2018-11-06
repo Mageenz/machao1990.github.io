@@ -1131,3 +1131,7 @@ padding: 0px 0.3em;
 .poetry-comments {
 width: 800px;
 }
+
+.text-center.shareicon {
+  margin-bottom: 10px;
+}

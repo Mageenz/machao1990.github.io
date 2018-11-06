@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="生活中喜怒哀乐是常事，尽量平静对待">
+    <meta name="description" content="喜怒哀乐是常事，保持平淡">
     <meta name="author" content="magee">
-    <meta name="keyword" content="生活, 博客, 程序员">
+    <meta name="keyword" content="生活, 前端, 博客, 程序员">
     <link rel="canonical" href="http://yoursite.com/">
     <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
     <link rel="alternate" type="application/atom+xml" title="magee" href="/atom.xml">
@@ -119,15 +119,11 @@
           <ul class="nav navbar-nav navbar-right">
               
                 <li>
-                  <a href="/">home</a>
+                  <a href="/">首页</a>
                 </li>
               
                 <li>
-                  <a href="/tutorial/">Tutorial</a>
-                </li>
-              
-                <li>
-                  <a href="/archives/">archives</a>
+                  <a href="/archives/">归档</a>
                 </li>
               
           </ul>
@@ -164,6 +160,27 @@
 <div class="container homepage">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
+          
+            <div class="post-preview "
+     style="background-image: url('/images/horse.JPG')">
+    <a href="/踩了个坑/">
+        <h2 class="post-title">
+            踩了个坑 Date.parse()
+        </h2>
+        
+        <div class="post-meta">
+          <span>Nov 2, 2018</span>
+          
+        </div>
+        <div class="post-content-preview">
+            <p>
+                ios12，微信内置webview，居然无法解析Date.parse(&#39;2018-12-12 12:12:12&#39;)，但是2018-12-12 12:12:12明明是符合ISO 8601格式规范的。最后通过momentjs解决了问题。我想应该是不同浏览器对Date.parse支持程..
+            </p>
+        </div>
+    </a>
+</div>
+<hr>
+
           
             <div class="post-preview "
      style="background-image: url('/images/horse.JPG')">
