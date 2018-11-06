@@ -13,7 +13,7 @@ a,
 a:hover,
 a:focus,
 a:active {
-  color: #44a4c8;
+  color: #1e8ace;
 }
 a, a:hover{
   text-decoration: none;
@@ -173,19 +173,24 @@ line-height: 1.7;
 .header-navbar .brand-logo {
   font-family: cursive, -apple-system,  "PingFang SC","Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   display: fixed;
-  color: #3fa3c7;
+  color: #000;
   margin-top: 5px;
   padding-left: 5px;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .header-navbar .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   font-weight: 800;
   letter-spacing: 1px;
   text-shadow: 0 0 1px rgba(0,0,0,.1);
+  display: block;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
 }
 
 .header-navbar .navbar-right a {
@@ -242,7 +247,7 @@ background-color: transparent;
   .header-navbar .nav li a:focus,
   .header-navbar .navbar-brand:hover,
   .header-navbar .navbar-brand:focus {
-      color: #44a4c8;
+      color: #4f87e1;
   }
 }
 
@@ -494,7 +499,7 @@ footer .copyright {
 
 /* tag post listing */
 .tag-icon {
-  color: #44a4c8;
+  color: #333;
   font-size: 21px;
 }
 
@@ -1057,7 +1062,7 @@ padding: 0px 0.3em;
 }
 
 .post-preview > a {
-  color: #404040;
+  color: #919191;
   display: block;
   height: 100%;
 }
